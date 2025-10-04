@@ -8,7 +8,8 @@ Pokud máte počítač s Windows, následujte tyto kroky:
 
 3. Na úvodní obrazovce je velmi důležité zaškrtnout volbu Add Python 3.X to PATH (viz obrázek)
 
-![Alt text](https://github.com/anetryg/python2025/blob/main/01-uvod_git/images/python-setup.png)
+![Alt text](https://github.com/anetryg/python2025/blob/main/01-uvod/images/python-setup.png)
+
 
 4. Klikněte na Install Now, odsouhlaste případné otázky ohledně změn na vašem počítači a vyčkejte dokončení instalace. Jakmile instalace skončí, zavřete okno tlačítkem Close.
 
@@ -32,7 +33,7 @@ Pro jednodušší spouštění programů a automatickou kontrolu syntaxe Pythonu
 ## Ověření instalace Pythonu ve VS Code
 Ať už používáte jakýkoliv operační systém, spusťte Visual Studio Code a z horní lišty vyberte Terminal → New Terminal (viz obrázek).
 
-![Alt text](https://github.com/anetryg/python2025/blob/main/01-uvod_git/images/vscode-term.png)
+![Alt text](https://github.com/anetryg/python2025/blob/main/01-uvod/images/vscode-term.png)
 
 Pokud jste na Windows, napište do okna příkaz, který zobrazí verzi nainstalovaného Pythonu:
 
@@ -52,7 +53,7 @@ Pokud se zobrazí verze Pythonu alespoň 3.8, vše je připraveno.
 # Programování
 Existuje mnoho různých programovacích jazyků, možná dokonce až stovky. Všechny tyto jazyky mají v zásadě podobné principy, takže pokud se naučíte jeden z nich, není obtížné naučit se i další. Každý programovací jazyk je však vhodný pro něco jiného. Některé jsou ideální pro tvorbu webových stránek, jiné se uplatní při vědeckých výpočtech a v oblasti umělé inteligence, zatímco další jsou skvělé pro vývoj her.
 
-![Alt text](https://github.com/anetryg/python2025/blob/main/01-uvod_git/images/programming-languages.png)
+![Alt text](https://github.com/anetryg/python2025/blob/main/01-uvod/images/programming-languages.png)
 
 ## Python
 Python, jeden z nejoblíbenějších programovacích jazyků dnešní doby, má svůj původ v raných 90. letech. Byl vytvořen nizozemským programátorem Guido van Rossumem, který se inspiroval humoristickým televizním pořadem "Monty Python's Flying Circus." První verze Pythonu, Python 0.9.0, byla veřejně uvolněna v únoru 1991. Od té doby prošel Python řadou vývojových verzí a stále se vyvíjí, aby byl efektivní a uživatelsky přívětivý. Python si získal oblibu díky své jednoduché a čitelné syntaxi, která umožňuje programátorům psát kód rychleji a efektivněji. Dnes je Python široce používán ve všech oblastech, zde je seznam nejběžnějších oblastí, ve kterých se Python nejčastěji používá:
