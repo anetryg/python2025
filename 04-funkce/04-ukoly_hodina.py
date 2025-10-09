@@ -1,5 +1,17 @@
 #Úkol 1
 """Napiš funkci mult, která bude mít dva číselné parametry. Funkce oba parametry vynásobí a vrátí výsledek."""
+
+def mult(cislo1, cislo2):
+    vysledek = cislo1 + cislo2
+    return vysledek
+
+x = mult(5,8)
+print(x + 10)
+
+
+print(mult(4, 5))
+print(mult(3, 6))
+print(mult(40, 70))
     
 
 
