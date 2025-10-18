@@ -3,10 +3,28 @@
 
 """
 
+def nahrad_samohlasky(retezec):
+    samohlasky = "aeiouy"
+    vysledek = "" 
+    for pismeno in retezec: 
+        if pismeno in samohlasky:
+            vysledek += '-' 
+        else: 
+            vysledek += pismeno 
+    return vysledek
+
+print(nahrad_samohlasky('ahoj'))
+print(nahrad_samohlasky('python'))
 
 # Úkol 2
 """Napište funkci secti_prvni_a_posledni, která bude mít jako parametr seznam čísel. Funkce sečte první a poslední prvek seznamu a vrátí výsledek."""
 
+def secti_prvni_a_posledni(seznam):
+    firstlast = seznam[0] + seznam[-1]
+    return firstlast
+
+vysledek = secti_prvni_a_posledni([1, 2, 3, 4, 5, 6])
+print(vysledek)
 
 
 # Úkol 3
@@ -16,12 +34,43 @@
 - Obsahuje alespoň jedno malé písmeno
 - Obsahuje alespoň jedno číslo
 Funkce vrátí True, pokud heslo splňuje všechny podmínky, jinak vrátí False. Použijte isupper() - kontrola velkého písmena, islower() - kontrola malého písmena, isdigit() - kontrola čísla."""
+ 
+
+def overenie_hesla(heslo):
+    if len(heslo) < 8: 
+        return False
+    velkepismeno = False
+    malepismeno = False
+    cislo = False
+    
+    for pismeno in heslo:
+        if pismeno.isupper():
+            velkepismeno = True
+        if pismeno.islower():
+            malepismeno = True
+        if pismeno.isdigit():
+            cislo = True    
             
-        
+    if velkepismeno and malepismeno and cislo:
+        return True
+    else:
+        return False
+print(overenie_hesla("Heslo012345"))
+
+
 
 # Úkol 4
 """Napište funkci unikatni_slova, která načte text od uživatele jako řetězec a vypíše počet unikátních slov ve zadaném textu. Program by měl ignorovat velikost písmen, tj. slova "Pes" a "pes" by měla být považována za stejná. (lower, split, set)"""
 
+
+def unikatni_slova(retezec):
+    return set(retezec.lower().split())
+
+text = "slovo slovo ahoj neco nic neco"
+
+print(unikatni_slova(text))
+
+    
 
     
 
